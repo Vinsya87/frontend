@@ -25,7 +25,7 @@
         "tools": "工具",
         "srh-inspector": "SRH 检查",
         "response-rules": "请求订阅的应用",
-        "remnawave-settings": "Remnawave 设置"
+        "remnawave-settings": "CodeLoft 设置"
     },
     "common": {
         "delete": "删除",
@@ -333,7 +333,7 @@
             "subscription-qr-code": "订阅二维码",
             "edit-user-headline": "编辑用户",
             "subscription-url-description-line-1": ".env 变量解析出的域名和路径：",
-            "subscription-url-description-line-2": "如需更改，请在 .env 文件中修改并使用以下命令重启 Remnawave：",
+            "subscription-url-description-line-2": "如需更改，请在 .env 文件中修改并使用以下命令重启 CodeLoft：",
             "view-accessible-nodes": "查看可访问的节点",
             "fetching-user-data": "正在获取用户数据……",
             "more-actions": "更多操作",
@@ -390,7 +390,7 @@
         "server-description-line-1": "该功能仅在 ProviderID 值存在时适用于 Happ，详情请参考",
         "server-description-line-2": "Happ 文档",
         "server-description-line-3": "以获取更多信息。",
-        "server-description-line-4": "Remnawave 将自动对该值进行 base64 编码，请勿在此输入已编码的值。",
+        "server-description-line-4": "CodeLoft 将自动对该值进行 base64 编码，请勿在此输入已编码的值。",
         "server-description-placeholder": "最多 30 个字符",
         "this-will-only-be-used-for-xray-json-output": "这将仅用于 Xray-JSON 输出。",
         "please-ensure-you-provide-a-valid-json-mux-object": "请确保您提供一个有效的 JSON MUX 对象。",
@@ -404,14 +404,14 @@
         "connection-overrides": "连接覆盖",
         "xray-json-and-raw": "Xray Json 和 Raw",
         "hide-host": "隐藏主机",
-        "hide-host-from-users-remnawave-will-send-host-only-for-raw-subscription-responses": "隐藏用户的主机。Remnawave 将仅发送RAW 订阅。",
+        "hide-host-from-users-remnawave-will-send-host-only-for-raw-subscription-responses": "隐藏用户的主机。CodeLoft 将仅发送RAW 订阅。",
         "apps-specific": "特定的应用程序",
         "single-domain": "单个域名",
         "default-mode-for-one-domain": "域名的默认模式",
         "multi-domain": "多个域名",
-        "multi-domain-description": "多个域名用逗号分隔。Remnawave将随机选择其中一个域名。",
+        "multi-domain-description": "多个域名用逗号分隔。CodeLoft将随机选择其中一个域名。",
         "wildcard-domain": "通配符域名",
-        "wildcard-domain-description": "子域的通配符模式。Remnawave将以 * 替换为随机生成的字符串。",
+        "wildcard-domain-description": "子域的通配符模式。CodeLoft将以 * 替换为随机生成的字符串。",
         "override-sni-from-address": "从地址覆盖SNI地址",
         "override-sni-from-address-description": "此选项用指定的地址字段值替换SNI值。这对于多域配置或通配符域配置特别有用。",
         "legacy-options": "传统选项",
@@ -434,7 +434,7 @@
         "keep-sni-blank-description": "在某些情况下，SNI必须留空。使用此选项强制一个空的SNI。 请注意，此选项具有最高优先级，因此即使SNI已经设置，它也会被应用。",
         "select-one-or-more-subscription-types-description": "选择一个或多个订阅类型，从该订阅类型中排除主机。",
         "exclude-from-subscription-type": "从订阅类型中排除",
-        "hidden-host-description": "默认情况下，Remnawave 将不会在订阅中包含隐藏主机。隐藏主机可以在 Mihomo 和 Xray-Json Advant, Raw 中使用"
+        "hidden-host-description": "默认情况下，CodeLoft 将不会在订阅中包含隐藏主机。隐藏主机可以在 Mihomo 和 Xray-Json Advant, Raw 中使用"
     },
     "base-node-form": {
         "country": "国家",
@@ -451,7 +451,7 @@
         "notify-percent": "达量通知百分比",
         "e-g-50": "例如 50",
         "consumption-m-line-1": "将所选倍率应用于用户的流量消耗（1.0 = 正常，0.5 = 减半，2.0 = 加倍）。",
-        "consumption-m-line-2": "简单来说，如果用户的流量上限是 1 GiB，且倍率为 2.0，用户实际只能使用 0.5 GiB 流量，但 Remnawave 会显示为已使用 1 GiB，并限制其继续使用。",
+        "consumption-m-line-2": "简单来说，如果用户的流量上限是 1 GiB，且倍率为 2.0，用户实际只能使用 0.5 GiB 流量，但 CodeLoft 会显示为已使用 1 GiB，并限制其继续使用。",
         "node-vitals": "节点状态",
         "consumption": "流量消耗",
         "core-configuration": "核心配置",
@@ -467,7 +467,7 @@
             "system": "系统",
             "bandwidth": "带宽",
             "short-stats": "简要统计",
-            "remnawave-usage": "Remnawave 使用情况",
+            "remnawave-usage": "CodeLoft 使用情况",
             "process-details": "进程详情"
         }
     },
@@ -581,7 +581,7 @@
             "happ-announce": "Happ 公告",
             "enter-happ-announce-max-200-characters": "输入 Happ 公告，最多 200 个字符",
             "happ-routing-description": "Happ 路由是一项功能，允许您通过订阅链接配置 Xray-Core 将使用的路由规则。",
-            "happ-routing-description-line-2": "可以通过 Remnawave 的 Happ 路由编辑器获取 Happ 的路由链接。下面的按钮将重定向到上述页面。",
+            "happ-routing-description-line-2": "可以通过 CodeLoft 的 Happ 路由编辑器获取 Happ 的路由链接。下面的按钮将重定向到上述页面。",
             "configure-happ-routing": "Happ 路由编辑器",
             "happ-routing": "Happ 路由",
             "user-status-remarks-description": "如果用户已过期、受限或禁用，以下值将显示在订阅页面中。",
@@ -775,8 +775,8 @@
             "title": "活跃会话",
             "requirements": "需求",
             "warning-activity": "仅在最近<highlight>20 秒</highlight>有活动才会显示IP地址",
-            "warning-version": "Remnawave 节点版本 <highlight>{{version}}</highlight> 或者更高",
-            "warning-docker": "将以下内容添加到 Remnawave 节点的 <highlight>docker-compose.yml</highlight> 内(/opt/remnanode)",
+            "warning-version": "CodeLoft 节点版本 <highlight>{{version}}</highlight> 或者更高",
+            "warning-docker": "将以下内容添加到 CodeLoft 节点的 <highlight>docker-compose.yml</highlight> 内(/opt/remnanode)",
             "warning-patience": "获取数据可能需要一些时间，不要关闭此窗口！",
             "get-data": "获取数据",
             "fetching": "正在获取活动会话...",
@@ -1087,7 +1087,7 @@
                 "please-select-a-provider-and-billing-node": "请选择一个网络提供商和计费节点",
                 "billing-node": "计费节点",
                 "next-billing-at": "下次计费时间",
-                "next-billing-at-description": "计费节点将被计费的日期和时间。Remnawave 将会通知你即将到来的账单。"
+                "next-billing-at-description": "计费节点将被计费的日期和时间。CodeLoft 将会通知你即将到来的账单。"
             }
         }
     },
@@ -1471,14 +1471,14 @@
     },
     "create-node-step-1-connection": {
         "copy-the": "复制",
-        "content-for-the-remnawave-node-below": "以下是 Remnawave 节点的内容。",
+        "content-for-the-remnawave-node-below": "以下是 CodeLoft 节点的内容。",
         "learn-more": "了解更多。",
         "domain-or-ip": "域名或IP"
     },
     "create-node-step-3-status": {
         "establishing-mtls-connection": "正在建立mTLS连接...",
         "xray-core-is-up-and-running": "Xray 核心正在运行！",
-        "remnawave-will-try-to-reconnect-shortly": "Remnawave 将很快尝试重新连接...",
+        "remnawave-will-try-to-reconnect-shortly": "CodeLoft 将很快尝试重新连接...",
         "no-errros-so-far": "到目前为止没有错误",
         "last-error-message": "最后一个错误消息"
     },
@@ -1622,7 +1622,7 @@
     },
     "branding-settings-card": {
         "widget": {
-            "customize-your-remnawave-instance": "自定义您的 Remnawave 实例",
+            "customize-your-remnawave-instance": "自定义您的 CodeLoft 实例",
             "branding-settings": "商标设置",
             "the-title-that-will-be-displayed-on-login-page": "登录页面显示的标题",
             "brand-name": "品牌名称",
@@ -1775,7 +1775,7 @@
             "timeline": "时间轴",
             "installation-guides-design": "安装指南标题"
         },
-        "subpage-config-saved-line-1": "若要应用更改，请重启Remnawave 订阅页面容器。",
+        "subpage-config-saved-line-1": "若要应用更改，请重启CodeLoft 订阅页面容器。",
         "subpage-config-saved-line-2": "例如，您可以在终端中使用以下命令："
     },
     "app-editor-drawer-content": {
@@ -1861,7 +1861,7 @@
         "tab": {
             "widget": {
                 "subscription-page-config": "订阅页面配置",
-                "subscription-page-config-description": "您可以覆盖这个外部分组的订阅页面配置(Remnawave 订阅页面)。",
+                "subscription-page-config-description": "您可以覆盖这个外部分组的订阅页面配置(CodeLoft 订阅页面)。",
                 "subpage-config": "订阅页面配置",
                 "select-config": "选择配置..."
             }

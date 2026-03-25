@@ -25,7 +25,7 @@
         "tools": "Инструменты",
         "srh-inspector": "Инспектор SRH",
         "response-rules": "Правила ответов",
-        "remnawave-settings": "Настройки Remnawave"
+        "remnawave-settings": "Настройки CodeLoft"
     },
     "common": {
         "delete": "Удалить",
@@ -333,7 +333,7 @@
             "subscription-qr-code": "QR-код ссылки-подписки",
             "edit-user-headline": "Редактирование",
             "subscription-url-description-line-1": "Домен и путь получены из .env переменной:",
-            "subscription-url-description-line-2": "Если вы хотите изменить его, пожалуйста, измените его в .env файле и перезапустите Remnawave командой:",
+            "subscription-url-description-line-2": "Если вы хотите изменить его, пожалуйста, измените его в .env файле и перезапустите CodeLoft командой:",
             "view-accessible-nodes": "Доступные ноды",
             "fetching-user-data": "Получение данных пользователя...",
             "more-actions": "Действия",
@@ -390,7 +390,7 @@
         "server-description-line-1": "Эта функция доступна только для Happ со значением ProviderID. См.",
         "server-description-line-2": "документацию Happ",
         "server-description-line-3": "для дополнительной информации.",
-        "server-description-line-4": "Remnawave закодирует это значение в формате base64. Не вводите здесь закодированное значение.",
+        "server-description-line-4": "CodeLoft закодирует это значение в формате base64. Не вводите здесь закодированное значение.",
         "server-description-placeholder": "Максимум 30 символов",
         "this-will-only-be-used-for-xray-json-output": "Это будет использоваться только с Xray-JSON.",
         "please-ensure-you-provide-a-valid-json-mux-object": "Убедитесь, что вы предоставили правильный объект JSON MUX.",
@@ -404,14 +404,14 @@
         "connection-overrides": "Переопределения соединений",
         "xray-json-and-raw": "Xray Json & Raw",
         "hide-host": "Скрыть хост",
-        "hide-host-from-users-remnawave-will-send-host-only-for-raw-subscription-responses": "Скрыть хост от пользователей, Remnawave отправит этот хост только для RAW-формата подписки",
+        "hide-host-from-users-remnawave-will-send-host-only-for-raw-subscription-responses": "Скрыть хост от пользователей, CodeLoft отправит этот хост только для RAW-формата подписки",
         "apps-specific": "Настройки для приложений",
         "single-domain": "Один домен",
         "default-mode-for-one-domain": "Режим по умолчанию для одного домена",
         "multi-domain": "Мульти домен",
-        "multi-domain-description": "Несколько доменов, разделенных запятыми. Remnawave будет случайным образом выбирать один из доменов.",
+        "multi-domain-description": "Несколько доменов, разделенных запятыми. CodeLoft будет случайным образом выбирать один из доменов.",
         "wildcard-domain": "Wildcard домен",
-        "wildcard-domain-description": "Шаблон шаблона Wildcard для субдоменов. Remnawave заменит * случайно созданной строкой.",
+        "wildcard-domain-description": "Шаблон шаблона Wildcard для субдоменов. CodeLoft заменит * случайно созданной строкой.",
         "override-sni-from-address": "Переопределить SNI из адреса",
         "override-sni-from-address-description": "Эта опция заменяет значение SNI на указанное значение поля Адрес. Это особенно полезно для опций: мульти-домен или Wildcard-домен.",
         "legacy-options": "Устаревшие настройки",
@@ -434,7 +434,7 @@
         "keep-sni-blank-description": "В некоторых случаях SNI должен быть оставлен пустым. Используйте эту опцию, чтобы принудительно использовать пустой SNI. Обратите внимание, что этот параметр имеет наивысший приоритет, поэтому он будет применяться даже если SNI уже установлен.",
         "select-one-or-more-subscription-types-description": "Выберите один или несколько типов подписки, чтобы исключить хост из этого типа подписки.",
         "exclude-from-subscription-type": "Исключить из типа подписки",
-        "hidden-host-description": "По умолчанию Remnawave не будет включать скрытые хосты в подписку. Скрытый хост можно использовать с Mihomo и Xray-Json Advanced, Raw."
+        "hidden-host-description": "По умолчанию CodeLoft не будет включать скрытые хосты в подписку. Скрытый хост можно использовать с Mihomo и Xray-Json Advanced, Raw."
     },
     "base-node-form": {
         "country": "Страна",
@@ -451,7 +451,7 @@
         "notify-percent": "% уведомления",
         "e-g-50": "например, 50",
         "consumption-m-line-1": "Применяет выбранный множитель к трафику пользователя (1,0 = обычный, 0,5 = половина, 2,0 = двойной).",
-        "consumption-m-line-2": "Проще говоря, это означает, что если лимит трафика пользователя составляет 1 GB, а множитель потребления равен 2,0, пользователь сможет использовать только 0,5 GB трафика (реальное использование), но Remnawave покажет использование как 1 GB, и пользователь будет переведен в статус LIMITED.",
+        "consumption-m-line-2": "Проще говоря, это означает, что если лимит трафика пользователя составляет 1 GB, а множитель потребления равен 2,0, пользователь сможет использовать только 0,5 GB трафика (реальное использование), но CodeLoft покажет использование как 1 GB, и пользователь будет переведен в статус LIMITED.",
         "node-vitals": "Параметры ноды",
         "consumption": "Потребление",
         "core-configuration": "Конфигурация ядра",
@@ -467,7 +467,7 @@
             "system": "Система",
             "bandwidth": "Трафик",
             "short-stats": "Краткая статистика",
-            "remnawave-usage": "Remnawave Usage",
+            "remnawave-usage": "CodeLoft Usage",
             "process-details": "Детали по процессам"
         }
     },
@@ -775,8 +775,8 @@
             "title": "Активные сеансы",
             "requirements": "Условия",
             "warning-activity": "IP адреса будут показаны только при наличии активности в течение последних <highlight>20 секунд</highlight>",
-            "warning-version": "Версия Remnawave Node <highlight>{{version}}</highlight> или выше",
-            "warning-docker": "Добавьте эти строки к <highlight>docker-compose.yml</highlight> Remnawave Node (/opt/remnanode)",
+            "warning-version": "Версия CodeLoft Node <highlight>{{version}}</highlight> или выше",
+            "warning-docker": "Добавьте эти строки к <highlight>docker-compose.yml</highlight> CodeLoft Node (/opt/remnanode)",
             "warning-patience": "Получение данных может занять некоторое время, не закрывайте это окно!",
             "get-data": "Получить данные",
             "fetching": "Получение активных сессий...",
@@ -1087,7 +1087,7 @@
                 "please-select-a-provider-and-billing-node": "Пожалуйста, выберите провайдера и биллинг ноду",
                 "billing-node": "Биллинг нода",
                 "next-billing-at": "Следующий платеж",
-                "next-billing-at-description": "Дата и время для следующей оплаты этого узла. Remnawave уведомит вас о предстоящем платеже."
+                "next-billing-at-description": "Дата и время для следующей оплаты этого узла. CodeLoft уведомит вас о предстоящем платеже."
             }
         }
     },
@@ -1471,14 +1471,14 @@
     },
     "create-node-step-1-connection": {
         "copy-the": "Скопируйте",
-        "content-for-the-remnawave-node-below": "содержимое для Remnawave node ниже.",
+        "content-for-the-remnawave-node-below": "содержимое для CodeLoft node ниже.",
         "learn-more": "Дополнительная информация.",
         "domain-or-ip": "Домен или IP"
     },
     "create-node-step-3-status": {
         "establishing-mtls-connection": "Установка mTLS соединения...",
         "xray-core-is-up-and-running": "Ядро Xray запущено и работает!",
-        "remnawave-will-try-to-reconnect-shortly": "Remnawave скоро попробует переподключиться...",
+        "remnawave-will-try-to-reconnect-shortly": "CodeLoft скоро попробует переподключиться...",
         "no-errros-so-far": "Пока никаких ошибок нет",
         "last-error-message": "Последнее сообщение об ошибке"
     },
@@ -1622,7 +1622,7 @@
     },
     "branding-settings-card": {
         "widget": {
-            "customize-your-remnawave-instance": "Кастомизировать вашу панель Remnawave",
+            "customize-your-remnawave-instance": "Кастомизировать вашу панель CodeLoft",
             "branding-settings": "Настройки кастомизации",
             "the-title-that-will-be-displayed-on-login-page": "Заголовок, отображаемый на странице входа",
             "brand-name": "Название бренда",
@@ -1861,7 +1861,7 @@
         "tab": {
             "widget": {
                 "subscription-page-config": "Конфигурация Subscription Page",
-                "subscription-page-config-description": "Вы можете переопределить конфигурацию Remnawave Subscription Page для этого внешнего отряда.",
+                "subscription-page-config-description": "Вы можете переопределить конфигурацию CodeLoft Subscription Page для этого внешнего отряда.",
                 "subpage-config": "Subpage Config",
                 "select-config": "Выберите конфигурацию..."
             }

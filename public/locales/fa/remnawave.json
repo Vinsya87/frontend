@@ -25,7 +25,7 @@
         "tools": "ابزارها",
         "srh-inspector": "بازرسی SRH",
         "response-rules": "قوانین پاسخ",
-        "remnawave-settings": "تنظیمات Remnawave"
+        "remnawave-settings": "تنظیمات CodeLoft"
     },
     "common": {
         "delete": "حذف",
@@ -333,7 +333,7 @@
             "subscription-qr-code": "اشتراک کد QR",
             "edit-user-headline": "ویرایش کاربر",
             "subscription-url-description-line-1": "دامنه و مسیر استخراج شده از فایل .env:",
-            "subscription-url-description-line-2": "برای تغییر این مقدار لطفا فایل .env را ویرایش کرده و سپس Remnawave را با این کامند ریستارت کنید:",
+            "subscription-url-description-line-2": "برای تغییر این مقدار لطفا فایل .env را ویرایش کرده و سپس CodeLoft را با این کامند ریستارت کنید:",
             "view-accessible-nodes": "مشاهده نودهای در دسترس",
             "fetching-user-data": "درحال دریافت اطلاعات کاربر",
             "more-actions": "عملیات بیشتر",
@@ -390,7 +390,7 @@
         "server-description-line-1": "این ویژگی فقط با ProviderID نرم‌افزار Happ کار می‌کند. لطفا مراجعه کنید به",
         "server-description-line-2": "مستندات Happ",
         "server-description-line-3": "برای کسب اطلاعات بیشتر",
-        "server-description-line-4": "این مقدار توسط Remnawave به صورت Base64 رمزنگاری می‌شود. لطفا مقدار رمزنگاری شده وارد نکنید.",
+        "server-description-line-4": "این مقدار توسط CodeLoft به صورت Base64 رمزنگاری می‌شود. لطفا مقدار رمزنگاری شده وارد نکنید.",
         "server-description-placeholder": "حداکثر 30 کاراکتر",
         "this-will-only-be-used-for-xray-json-output": "این مقادیر فقط در خروجی Xray-JSON استفاده خواهد شد.",
         "please-ensure-you-provide-a-valid-json-mux-object": "لطفا از صحت JSON وارد شده برای Mux اطمینان حاصل کنید",
@@ -404,14 +404,14 @@
         "connection-overrides": "تنظیمات اجباری اتصال",
         "xray-json-and-raw": "اشتراک خام و JSON برای Xray",
         "hide-host": "مخفی کردن هاست",
-        "hide-host-from-users-remnawave-will-send-host-only-for-raw-subscription-responses": "مخفی کردن هاست از کاربران، Remnawave این هاست را فقط برای درخواست‌های اشتراک خام ارسال خواهد کرد",
+        "hide-host-from-users-remnawave-will-send-host-only-for-raw-subscription-responses": "مخفی کردن هاست از کاربران، CodeLoft این هاست را فقط برای درخواست‌های اشتراک خام ارسال خواهد کرد",
         "apps-specific": "مختص نرم‌افزارها",
         "single-domain": "تک‌دامنه",
         "default-mode-for-one-domain": "حالت پیشفرض برای یک دامنه",
         "multi-domain": "چند دامنه",
-        "multi-domain-description": "چندین دامنه که با کاما (,) جدا شده‌اند، Remnawave یکی از دامنه‌ها را به صورت تصادفی انتخاب خواهد کرد.",
+        "multi-domain-description": "چندین دامنه که با کاما (,) جدا شده‌اند، CodeLoft یکی از دامنه‌ها را به صورت تصادفی انتخاب خواهد کرد.",
         "wildcard-domain": "دامنه wildcard",
-        "wildcard-domain-description": "الگوی wildcard برای دامنه. Remnawave به جای * یک رشته متنی رندوم جایگذاری خواهد کرد",
+        "wildcard-domain-description": "الگوی wildcard برای دامنه. CodeLoft به جای * یک رشته متنی رندوم جایگذاری خواهد کرد",
         "override-sni-from-address": "بازنویسی SNI از آدرس دامنه",
         "override-sni-from-address-description": "این گزینه مقدار SNI را با آدرس مشخص شده جایگزین خواهد کرد که برای کانفیگ‌های چند دامنه‌ای و wildcard قابل استفاده می‌باشد",
         "legacy-options": "تنظیمات قدیمی",
@@ -434,7 +434,7 @@
         "keep-sni-blank-description": "در برخی موارد باید SNI خالی بماند. از این گزینه برای خالی گذاشتن SNI استفاده کنید. توجه داشته باشید که این گزینه بالاترین اولویت را دارد، بنابراین حتی اگر SNI از قبل تنظیم شده باشد، اعمال خواهد شد.",
         "select-one-or-more-subscription-types-description": "Select one or more subscription types to exclude host from that subscription type.",
         "exclude-from-subscription-type": "Exclude from Subscription Type",
-        "hidden-host-description": "By default, Remnawave will not include hidden hosts in the subscription. Hidden host can be used with Mihomo and Xray-Json Advanced, Raw."
+        "hidden-host-description": "By default, CodeLoft will not include hidden hosts in the subscription. Hidden host can be used with Mihomo and Xray-Json Advanced, Raw."
     },
     "base-node-form": {
         "country": "کشور",
@@ -467,7 +467,7 @@
             "system": "سیستم",
             "bandwidth": "پهنای باند",
             "short-stats": "آمار مختصر",
-            "remnawave-usage": "مصرف منابع Remnawave",
+            "remnawave-usage": "مصرف منابع CodeLoft",
             "process-details": "مشخصات Process"
         }
     },
@@ -775,7 +775,7 @@
             "title": "نشست‌های فعال",
             "requirements": "پیش‌نیازها",
             "warning-activity": "آدرس‌های آیپی درصورتی که در <highlight>20 ثانیه</highlight> اخیر فعال بوده باشند نمایش داده می‌شوند",
-            "warning-version": "نود Remnawave نسخه <highlight>{{version}}</highlight> یا بالاتر",
+            "warning-version": "نود CodeLoft نسخه <highlight>{{version}}</highlight> یا بالاتر",
             "warning-docker": "مقادیر زیر را به <highlight>docker-compose.yml</highlight> نود (در /opt/remnanode) اضافه کنید",
             "warning-patience": "دریافت اطلاعات ممکن است زمانبر باشد، این پنجره را نبندید!",
             "get-data": "دریافت اطلاعات",
@@ -1087,7 +1087,7 @@
                 "please-select-a-provider-and-billing-node": "لطفاً یک ارائه‌دهنده و نود صورتحساب انتخاب کنید",
                 "billing-node": "نود صورتحساب",
                 "next-billing-at": "صورتحساب بعدی در",
-                "next-billing-at-description": "تاریخ و زمانی که نود صورتحساب بعدی صادر می‌شود. Remnawave شما را مطلع خواهد کرد."
+                "next-billing-at-description": "تاریخ و زمانی که نود صورتحساب بعدی صادر می‌شود. CodeLoft شما را مطلع خواهد کرد."
             }
         }
     },
@@ -1478,7 +1478,7 @@
     "create-node-step-3-status": {
         "establishing-mtls-connection": "درحال برقراری اتصال mTLS",
         "xray-core-is-up-and-running": "هسته Xray درحال اجرا می‌باشد!",
-        "remnawave-will-try-to-reconnect-shortly": "به زودی Remnawave برای اتصال مجدد تلاش خواهد کرد",
+        "remnawave-will-try-to-reconnect-shortly": "به زودی CodeLoft برای اتصال مجدد تلاش خواهد کرد",
         "no-errros-so-far": "تا کنون خطایی وجود نداشته است",
         "last-error-message": "آخرین پیام خطا"
     },
@@ -1622,7 +1622,7 @@
     },
     "branding-settings-card": {
         "widget": {
-            "customize-your-remnawave-instance": "پنل Remnawave خود را شخصی‌سازی کنید",
+            "customize-your-remnawave-instance": "پنل CodeLoft خود را شخصی‌سازی کنید",
             "branding-settings": "تنظیمات برندینگ",
             "the-title-that-will-be-displayed-on-login-page": "عنوانی که در صفحه ورود نشان داده خواهد شد",
             "brand-name": "اسم برند",
@@ -1861,7 +1861,7 @@
         "tab": {
             "widget": {
                 "subscription-page-config": "پیکربندی صفحه اشتراک",
-                "subscription-page-config-description": "شما می‌توانید پیکربندی صفحه اشتراک (صفحه اشتراک Remnawave) را برای این گروه خارجی override کنید.",
+                "subscription-page-config-description": "شما می‌توانید پیکربندی صفحه اشتراک (صفحه اشتراک CodeLoft) را برای این گروه خارجی override کنید.",
                 "subpage-config": "تنظیمات صفحه اشتراک",
                 "select-config": "کانفیگ را انتخاب کنید..."
             }
