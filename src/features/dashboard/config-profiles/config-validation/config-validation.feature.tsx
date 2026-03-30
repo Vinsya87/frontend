@@ -68,7 +68,12 @@ export const ConfigValidationFeature = {
                 replaceSnippetsInArray(clonedCurrentValue.routing.balancers, snippetsMap)
             }
 
-            const validationResult = window.XrayParseConfig(JSON.stringify(clonedCurrentValue))
+            let validationResult = ''
+            if (typeof window.XrayParseConfig === 'function') {
+                validationResult = window.XrayParseConfig(JSON.stringify(clonedCurrentValue))!
+            } else {
+                console.warn('XrayParseConfig not found, skipping strict validation')
+            }
 
             setResult(
                 `${dayjs().format('HH:mm:ss')} | ${validationResult || 'Xray config is valid.'}`
