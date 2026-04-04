@@ -1,5 +1,5 @@
 export const app = {
-    name: 'CodeLoft VPN Dashboard',
+    name: 'CodeLoft Dashboard',
     githubRepo: 'https://github.com/remnawave/backend',
     githubStars: 'https://github.com/remnawave/backend/stargazers',
     githubIssues: 'https://github.com/remnawave/backend/issues',
